@@ -44,6 +44,9 @@ void swap(int x, int y)
     {
         int temp;
         int pivot, i, j;
+        if (low > high) { //step 1
+            return;
+        }
        
 }
 
